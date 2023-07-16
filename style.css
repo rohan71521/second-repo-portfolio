@@ -2,11 +2,16 @@
 body{font-family: 'Open Sans', sans-serif;
   
 }
+header{
+    background-color: #fff8f3;
+}
 /* nav related styles   */
 
-nav {
+.nav {
     display: flex; 
     justify-content: space-between;
+    align-items: center;
+    gap: 5px;
 }
 .nav-title {
     font-size: 45px;
@@ -33,12 +38,54 @@ ul li a{
     color:#474747 ;
 }
 /* button style */
-.btn{
+.btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
-    background: #FD6E0A;
+  color: white;
     border: none;padding:
     15px 30px;
     font-size: 20px;
     
+}
+.second-btn{
+    background-color: #fff;
+    color:   #FD6E0A ;
+    border-radius: 5px;
+   border: 1px solid #FD6E0A ;padding:
+    15px 30px;
+    font-size: 20px;
+   
+}
+.name-text-btns{
+    display: flex;
+    gap: 20px;
+}
+
+/* banner design */
+.banner{
+    padding: 50px;
+    text-align: left;
+  
+}
+
+.vartically-text{
+    color: rgba(24, 24, 24, 0.15);
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing:33px;
+
+ 
+}
+#hi-text{
+    font-size: 48px;
+}
+.large-text{
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.main-image{
+    background-image: url(images/header_bg.png);
+    background-size: cover;
 }
